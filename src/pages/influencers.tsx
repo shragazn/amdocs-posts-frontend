@@ -27,10 +27,10 @@ const Influencers = () => {
                   <Button variant="destructive">Remove</Button>
                 </td>
               </tr>
-              <User client="amdocs" username="John Doe" />
-              <User client="amdocs" username="Jane Doe" />
-              <User client="amdocs" username="Ivan Ivanov" />
-              <User client="amdocs" username="Petr Petrov" />
+              <User client="amdocs" username="John Doe" media="linkedIn" />
+              <User client="amdocs" username="Jane Doe" media="linkedIn" />
+              <User client="amdocs" username="Ivan Ivanov" media="linkedIn" />
+              <User client="amdocs" username="Petr Petrov" media="linkedIn" />
             </tbody>
           </table>
           <InfluencerDialog></InfluencerDialog>

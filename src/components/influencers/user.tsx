@@ -1,11 +1,9 @@
+import { User } from "@/types/api";
 import { Avatar, AvatarFallback } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 
-type Props = {
-  username: string;
-  client: string;
-};
+type Props = User;
 
 export function User({ username, client }: Props) {
   const initials = username
